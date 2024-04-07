@@ -9,7 +9,7 @@ export function Header() {
       <nav className="flex items-center gap-5 py-2">
         <NavLink href="/eventos">Eventos</NavLink>
         <NavLink href="/participantes">Participantes </NavLink>
-        <NavLink href="/">Componente reaproveitado </NavLink>
+     
       </nav>
     </div>
   )
