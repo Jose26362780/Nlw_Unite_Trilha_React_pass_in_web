@@ -1,30 +1,66 @@
-# React + TypeScript + Vite
+# NLW UNITE #15 - Pass.in
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O pass.in  é um projeto de gestao de participação de eventos  vamos a criar a parte de participantes vamos a criar a parte  de gestão do evento usando react e tailwind 
 
-Currently, two official plugins are available:
+![preview](./.github/cover.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Sobre o Projeto 
 
-## Expanding the ESLint configuration
+Aplicação dos conceitos de 
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Propriedades
+- Estados 
+- Componentes 
 
-- Configure the top-level `parserOptions` property like this:
+Tipagem com Typescript, tooling com Vite, interface responsiva com TailwindCSS
+Consumo de API Node.js, use de URL states
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Pré-Requisitos 📚
+
+- Node.js versão v18 ou superior (usar a versão LTS)
+- npm ou Yarn -  Versão 9.5.1 ou superior 
+- Ter Instalado vscode ou o editor de codigo de preferencia 
+
+
+## 🛠 Instalação 
+
+1) Clone o Repositorio 
+2) Instale as dependencias (npm install ou npm i )
+3) Crie um arquivo de configuração Crie um arquivo .env, na raiz do projeto e configure as variáveis de ambiente necessárias.
+4) Abra o terminal e digital npm run dev para inicializar o servidor 
+
+## Variáveis de Ambiente
+
+Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de ambiente no seu .env
+
+`DATABASE_URL = “file:./dev.db”`
+
+
+## Link da aplicação
+
+👉🏼[Clique aqui para accessar](https://nlw-unite-15-pass-in.netlify.app/)
+
+##  Tecnologias usadas no projeto
+
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind_CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+## 🔗 Deploy 
+
+![github](https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white)
+![netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+
+
+## 💻 Sobre mim 😄
+ Estudante de Engenharia de Software na UNOPAR e 
+ Desenvolvedor Front End estudando na Rocketseat do Programa Explorer 
+
+## 🔗 Contato 
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jose-martinez-352032222/)
+[![gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mailto:juniorjose1925@gmail.com)
+
+
+
